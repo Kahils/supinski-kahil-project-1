@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bs2p8h1h1ty6h"
+path="res://.godot/imported/sfx_jump.ogg-4532ad1d40d7b5ad7bf94dc5dda25cdb.oggvorbisstr"
+
+[deps]
+
+source_file="res://assest/2D Resources/sounds/sfx_jump.ogg"
+dest_files=["res://.godot/imported/sfx_jump.ogg-4532ad1d40d7b5ad7bf94dc5dda25cdb.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
