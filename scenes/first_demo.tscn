@@ -1,10 +1,39 @@
 [gd_scene format=3 uid="uid://bwpemc1t7ocq1"]
 
 [ext_resource type="Texture2D" uid="uid://dc3fd4y7rcmgu" path="res://icon.svg" id="1_7gwon"]
+[ext_resource type="PackedScene" uid="uid://c7f7kakss8l4e" path="res://scenes/player.tscn" id="2_6vk37"]
+[ext_resource type="FontFile" uid="uid://dbxf6l35ngqqf" path="res://assest/2D Resources/fonts/PixelOperator8.ttf" id="3_5427p"]
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_7gwon"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_yh543"]
+font = ExtResource("3_5427p")
+font_size = 24
+outline_size = 3
 
 [node name="FirstDemo" type="Node2D" unique_id=1475041263]
 
-[node name="Icon" type="Sprite2D" parent="." unique_id=897117149]
-position = Vector2(545, 565)
-scale = Vector2(5.125, 0.640625)
+[node name="Player" parent="." unique_id=971561739 instance=ExtResource("2_6vk37")]
+position = Vector2(548, 421)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=1574354198]
+position = Vector2(549, 432)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=694047611]
+shape = SubResource("WorldBoundaryShape2D_7gwon")
+
+[node name="Icon" type="Sprite2D" parent="." unique_id=1514180590]
+position = Vector2(548, 520)
+scale = Vector2(4.8906255, 0.578125)
 texture = ExtResource("1_7gwon")
+
+[node name="Label" type="Label" parent="." unique_id=1429547451]
+offset_left = 468.0
+offset_top = 297.0
+offset_right = 632.0
+offset_bottom = 348.0
+text = "Kahil Supinski"
+label_settings = SubResource("LabelSettings_yh543")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
