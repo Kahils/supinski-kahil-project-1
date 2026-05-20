@@ -17,15 +17,10 @@ outline_size = 3
 position = Vector2(548, 421)
 
 [node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=1574354198]
-position = Vector2(549, 432)
+position = Vector2(543, 483)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=694047611]
 shape = SubResource("WorldBoundaryShape2D_7gwon")
-
-[node name="Icon" type="Sprite2D" parent="." unique_id=1514180590]
-position = Vector2(548, 520)
-scale = Vector2(4.8906255, 0.578125)
-texture = ExtResource("1_7gwon")
 
 [node name="Label" type="Label" parent="." unique_id=1429547451]
 offset_left = 468.0
@@ -37,3 +32,8 @@ label_settings = SubResource("LabelSettings_yh543")
 horizontal_alignment = 1
 vertical_alignment = 1
 autowrap_mode = 3
+
+[node name="Icon" type="Sprite2D" parent="." unique_id=1514180590]
+position = Vector2(548, 520)
+scale = Vector2(4.8906255, 0.578125)
+texture = ExtResource("1_7gwon")
