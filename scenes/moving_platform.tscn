@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://dntfag4p776p6"]
+
+[ext_resource type="Texture2D" uid="uid://c3b1mn62j315s" path="res://assest/2D Resources/tilesets/props.png" id="1_ms375"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ms375"]
+size = Vector2(32, 16)
+
+[node name="Moving Platform" type="AnimatableBody2D" unique_id=1374481962]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1948522009]
+texture = ExtResource("1_ms375")
+region_enabled = true
+region_rect = Rect2(257, 191, 31, 16)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=602228197]
+visible = false
+shape = SubResource("RectangleShape2D_ms375")
+one_way_collision = true
