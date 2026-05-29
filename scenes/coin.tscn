@@ -99,7 +99,7 @@ animations = [{
 }]
 
 [node name="Coin" type="Area2D" unique_id=1493750313]
-collision_layer = 4
+collision_mask = 4
 script = ExtResource("1_i64fm")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1472329088]
@@ -110,4 +110,9 @@ shape = SubResource("CircleShape2D_i64fm")
 sprite_frames = SubResource("SpriteFrames_ssuvv")
 autoplay = "default"
 
+[node name="SpeedBuffTimer" type="Timer" parent="." unique_id=964446416]
+wait_time = 1.5
+one_shot = true
+
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="timeout" from="SpeedBuffTimer" to="." method="_on_speed_buff_timer_timeout"]
