@@ -1,0 +1,61 @@
+[gd_scene format=3 uid="uid://c8a2iytrx3i3j"]
+
+[ext_resource type="Texture2D" uid="uid://4dmnateo50im" path="res://assest/2D Resources/items/fruit.png" id="1_phx13"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dob6p"]
+atlas = ExtResource("1_phx13")
+region = Rect2(32, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5yj3s"]
+atlas = ExtResource("1_phx13")
+region = Rect2(32, 16, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bi4m6"]
+atlas = ExtResource("1_phx13")
+region = Rect2(32, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mtrgt"]
+atlas = ExtResource("1_phx13")
+region = Rect2(32, 48, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_l5l1l"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dob6p")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5yj3s")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bi4m6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mtrgt")
+}],
+"loop": true,
+"name": &"default",
+"speed": 3.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_tmrey"]
+radius = 7.0
+height = 16.0
+
+[sub_resource type="GDScript" id="GDScript_phx13"]
+
+[node name="SpeedPickup" type="Area2D" unique_id=1563016229]
+collision_mask = 4
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=547662913]
+sprite_frames = SubResource("SpriteFrames_l5l1l")
+autoplay = "default"
+frame = 2
+frame_progress = 0.25392237
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1809175728]
+visible = false
+shape = SubResource("CapsuleShape2D_tmrey")
+script = SubResource("GDScript_phx13")
+
+[connection signal="body_entered" from="." to="CollisionShape2D" method="_on_speed_pickup_body_entered"]

@@ -64,6 +64,9 @@ animations = [{
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_n560y"]
 size = Vector2(10, 8)
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8lp5w"]
+size = Vector2(14, 6)
+
 [node name="GreenSlimeEnemy" type="Node2D" unique_id=539420262]
 script = ExtResource("1_n560y")
 
@@ -86,3 +89,11 @@ target_position = Vector2(-7.9969916, -0.21941996)
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Killbox" unique_id=209264924]
 position = Vector2(0, 4)
 shape = SubResource("RectangleShape2D_n560y")
+
+[node name="HitArea" type="Area2D" parent="." unique_id=979564102]
+
+[node name="HitBox" type="CollisionShape2D" parent="HitArea" unique_id=911112136]
+position = Vector2(0, -3)
+shape = SubResource("RectangleShape2D_8lp5w")
+
+[connection signal="body_entered" from="HitArea" to="." method="_on_hit_area_body_entered"]

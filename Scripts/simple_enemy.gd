@@ -6,6 +6,7 @@ var facing_left : bool = true
 @onready var ray_cast_right: RayCast2D = $RayCastRight
 @onready var enemy_sprite: AnimatedSprite2D = $AnimatedSprite2D
 
+
 func _physics_process(delta: float) -> void:
 
 	if ray_cast_left.is_colliding():
@@ -20,4 +21,7 @@ func _physics_process(delta: float) -> void:
 		position.x += -speed * delta
 	else:
 		position.x += speed * delta
+
+func _on_hit_area_body_entered(body: Node2D) -> void:
+	queue_free()
 	

@@ -1,0 +1,63 @@
+[gd_scene format=3 uid="uid://vfsnbv4u1fbd"]
+
+[ext_resource type="Script" uid="uid://c1gdnhgsrtep5" path="res://Scripts/coin.gd" id="1_rv65c"]
+[ext_resource type="Texture2D" uid="uid://4dmnateo50im" path="res://assest/2D Resources/items/fruit.png" id="2_rv65c"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_i64fm"]
+radius = 9.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_037j8"]
+atlas = ExtResource("2_rv65c")
+region = Rect2(32, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iv2a7"]
+atlas = ExtResource("2_rv65c")
+region = Rect2(32, 16, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m5h4n"]
+atlas = ExtResource("2_rv65c")
+region = Rect2(32, 32, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eqgjk"]
+atlas = ExtResource("2_rv65c")
+region = Rect2(32, 48, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ssuvv"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_037j8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iv2a7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m5h4n")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eqgjk")
+}],
+"loop": true,
+"name": &"default",
+"speed": 3.0
+}]
+
+[node name="Speedfruit" type="Area2D" unique_id=1493750313]
+collision_mask = 4
+script = ExtResource("1_rv65c")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1472329088]
+visible = false
+shape = SubResource("CircleShape2D_i64fm")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1513948658]
+sprite_frames = SubResource("SpriteFrames_ssuvv")
+autoplay = "default"
+frame_progress = 0.38049522
+
+[node name="SpeedBuffTimer" type="Timer" parent="." unique_id=964446416]
+wait_time = 1.5
+one_shot = true
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="timeout" from="SpeedBuffTimer" to="." method="_on_speed_buff_timer_timeout"]

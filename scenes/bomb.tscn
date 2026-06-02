@@ -1,0 +1,86 @@
+[gd_scene format=3 uid="uid://c5y72kxmyep3f"]
+
+[ext_resource type="Texture2D" uid="uid://dqqmr5ds8ebt0" path="res://assest/Sprites [Enemies]/Bomb/Bomb.png" id="1_vpdcx"]
+[ext_resource type="PackedScene" uid="uid://c1auq7h1ue2nv" path="res://scenes/killbox.tscn" id="2_j15uc"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_84slv"]
+atlas = ExtResource("1_vpdcx")
+region = Rect2(0, 192, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nxi8k"]
+atlas = ExtResource("1_vpdcx")
+region = Rect2(24, 192, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1hf1o"]
+atlas = ExtResource("1_vpdcx")
+region = Rect2(48, 192, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_56fam"]
+atlas = ExtResource("1_vpdcx")
+region = Rect2(72, 192, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8lqhf"]
+atlas = ExtResource("1_vpdcx")
+region = Rect2(96, 192, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7nxw5"]
+atlas = ExtResource("1_vpdcx")
+region = Rect2(120, 192, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m3s2y"]
+atlas = ExtResource("1_vpdcx")
+region = Rect2(144, 192, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3nocn"]
+atlas = ExtResource("1_vpdcx")
+region = Rect2(168, 192, 24, 24)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_poanl"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_84slv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nxi8k")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1hf1o")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_56fam")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8lqhf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7nxw5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m3s2y")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3nocn")
+}],
+"loop": true,
+"name": &"default",
+"speed": 10.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8gab1"]
+size = Vector2(7, 10)
+
+[node name="Bomb" type="Node2D" unique_id=750544470]
+position = Vector2(0, -12)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=529071340]
+sprite_frames = SubResource("SpriteFrames_poanl")
+autoplay = "default"
+frame_progress = 0.316042
+
+[node name="Killbox" parent="AnimatedSprite2D" unique_id=615876798 instance=ExtResource("2_j15uc")]
+visible = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AnimatedSprite2D/Killbox" unique_id=1115470868]
+position = Vector2(-0.5, 7)
+shape = SubResource("RectangleShape2D_8gab1")
