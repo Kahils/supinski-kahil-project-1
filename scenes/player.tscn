@@ -40,7 +40,7 @@ animations = [{
 }]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_g2els"]
-radius = 4.0
+radius = 3.0
 height = 16.0
 
 [node name="Player" type="CharacterBody2D" unique_id=971561739 groups=["Player"]]

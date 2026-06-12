@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://bejrktyoflocd"]
+
+[ext_resource type="Script" uid="uid://7734w4heyths" path="res://Scripts/stompbox.gd" id="1_c80oa"]
+
+[node name="stompbox" type="Area2D" unique_id=1710123681]
+collision_mask = 4
+script = ExtResource("1_c80oa")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

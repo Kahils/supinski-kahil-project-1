@@ -2,6 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://dqqmr5ds8ebt0" path="res://assest/Sprites [Enemies]/Bomb/Bomb.png" id="1_vpdcx"]
 [ext_resource type="PackedScene" uid="uid://c1auq7h1ue2nv" path="res://scenes/killbox.tscn" id="2_j15uc"]
+[ext_resource type="PackedScene" uid="uid://bejrktyoflocd" path="res://scenes/stompbox.tscn" id="3_j15uc"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_84slv"]
 atlas = ExtResource("1_vpdcx")
@@ -70,8 +71,10 @@ animations = [{
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_8gab1"]
 size = Vector2(7, 10)
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_84slv"]
+size = Vector2(5, 7)
+
 [node name="Bomb" type="Node2D" unique_id=750544470]
-position = Vector2(0, -12)
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=529071340]
 sprite_frames = SubResource("SpriteFrames_poanl")
@@ -79,8 +82,14 @@ autoplay = "default"
 frame_progress = 0.316042
 
 [node name="Killbox" parent="AnimatedSprite2D" unique_id=615876798 instance=ExtResource("2_j15uc")]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="AnimatedSprite2D/Killbox" unique_id=1115470868]
 position = Vector2(-0.5, 7)
 shape = SubResource("RectangleShape2D_8gab1")
+
+[node name="stompbox" parent="." unique_id=1710123681 node_paths=PackedStringArray("parent_to_kill") instance=ExtResource("3_j15uc")]
+parent_to_kill = NodePath("..")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="stompbox" unique_id=950108103]
+position = Vector2(-0.5, -1.5)
+shape = SubResource("RectangleShape2D_84slv")

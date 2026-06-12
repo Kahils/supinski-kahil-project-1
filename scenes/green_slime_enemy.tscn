@@ -3,6 +3,7 @@
 [ext_resource type="Script" uid="uid://1vdwlo3gw1wb" path="res://Scripts/simple_enemy.gd" id="1_n560y"]
 [ext_resource type="Texture2D" uid="uid://cd5uybu8l5d3g" path="res://assest/2D Resources/enemies/Green Slime Spritesheet.png" id="1_yj1vg"]
 [ext_resource type="PackedScene" uid="uid://c1auq7h1ue2nv" path="res://scenes/killbox.tscn" id="2_51u20"]
+[ext_resource type="PackedScene" uid="uid://bejrktyoflocd" path="res://scenes/stompbox.tscn" id="4_8lp5w"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_51u20"]
 atlas = ExtResource("1_yj1vg")
@@ -62,10 +63,10 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_n560y"]
-size = Vector2(10, 8)
+size = Vector2(12, 8)
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_8lp5w"]
-size = Vector2(16, 6)
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_aadjo"]
+size = Vector2(10, 5)
 
 [node name="GreenSlimeEnemy" type="Node2D" unique_id=539420262]
 script = ExtResource("1_n560y")
@@ -90,10 +91,9 @@ target_position = Vector2(-7.9969916, -0.21941996)
 position = Vector2(0, 4)
 shape = SubResource("RectangleShape2D_n560y")
 
-[node name="HitArea" type="Area2D" parent="." unique_id=979564102]
+[node name="stompbox" parent="." unique_id=1710123681 node_paths=PackedStringArray("parent_to_kill") instance=ExtResource("4_8lp5w")]
+parent_to_kill = NodePath("..")
 
-[node name="HitBox" type="CollisionShape2D" parent="HitArea" unique_id=911112136]
-position = Vector2(0, -3)
-shape = SubResource("RectangleShape2D_8lp5w")
-
-[connection signal="body_entered" from="HitArea" to="." method="_on_hit_area_body_entered"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="stompbox" unique_id=440146469]
+position = Vector2(0, -2.5)
+shape = SubResource("RectangleShape2D_aadjo")
