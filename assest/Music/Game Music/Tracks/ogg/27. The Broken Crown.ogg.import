@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://b5era1bca1wch"
+path="res://.godot/imported/27. The Broken Crown.ogg-54b34ad6afe821aa8607fb0e75dd319f.oggvorbisstr"
+
+[deps]
+
+source_file="res://assest/Music/Game Music/Tracks/ogg/27. The Broken Crown.ogg"
+dest_files=["res://.godot/imported/27. The Broken Crown.ogg-54b34ad6afe821aa8607fb0e75dd319f.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

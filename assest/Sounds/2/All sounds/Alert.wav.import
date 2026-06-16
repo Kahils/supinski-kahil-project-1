@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dal3s2uw3ldba"
+path="res://.godot/imported/Alert.wav-b0f8b73d8769aad762c1f781cfb0f2cb.sample"
+
+[deps]
+
+source_file="res://assest/Sounds/2/All sounds/Alert.wav"
+dest_files=["res://.godot/imported/Alert.wav-b0f8b73d8769aad762c1f781cfb0f2cb.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

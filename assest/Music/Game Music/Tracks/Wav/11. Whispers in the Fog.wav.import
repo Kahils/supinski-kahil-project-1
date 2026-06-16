@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://crqk7vl2y5xck"
+path="res://.godot/imported/11. Whispers in the Fog.wav-7048320e4ad61ed603a7468b874843ff.sample"
+
+[deps]
+
+source_file="res://assest/Music/Game Music/Tracks/Wav/11. Whispers in the Fog.wav"
+dest_files=["res://.godot/imported/11. Whispers in the Fog.wav-7048320e4ad61ed603a7468b874843ff.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

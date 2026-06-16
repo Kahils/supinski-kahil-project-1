@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dmgtix6s1tgn4"
+path="res://.godot/imported/Quest.wav-ff03d3a7cd074d3c71c8c2a97e01683a.sample"
+
+[deps]
+
+source_file="res://assest/Sounds/2/All sounds/Quest.wav"
+dest_files=["res://.godot/imported/Quest.wav-ff03d3a7cd074d3c71c8c2a97e01683a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

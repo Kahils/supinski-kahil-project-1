@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bq70pakna8d85"
+path="res://.godot/imported/6. Moonlit Vale.mp3-41695739a2a0916db48467b448722d30.mp3str"
+
+[deps]
+
+source_file="res://assest/Music/Game Music/Loops/mp3/6. Moonlit Vale.mp3"
+dest_files=["res://.godot/imported/6. Moonlit Vale.mp3-41695739a2a0916db48467b448722d30.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,5 +1,6 @@
 [gd_scene format=4 uid="uid://bri6tkkmhxrpm"]
 
+[ext_resource type="Script" uid="uid://ce4cchaeqjaqb" path="res://Scripts/game_manager.gd" id="1_2ucnx"]
 [ext_resource type="PackedScene" uid="uid://c7f7kakss8l4e" path="res://scenes/player.tscn" id="1_4lj41"]
 [ext_resource type="Texture2D" uid="uid://c6moe67g7sl7g" path="res://assest/2D Resources/tilesets/tileset.png" id="2_mofoo"]
 [ext_resource type="Texture2D" uid="uid://c3b1mn62j315s" path="res://assest/2D Resources/tilesets/props.png" id="3_mofoo"]
@@ -12,6 +13,7 @@
 [ext_resource type="PackedScene" uid="uid://c1auq7h1ue2nv" path="res://scenes/killbox.tscn" id="10_lwi15"]
 [ext_resource type="PackedScene" uid="uid://vfsnbv4u1fbd" path="res://scenes/speedfruit.tscn" id="11_e6mo4"]
 [ext_resource type="PackedScene" uid="uid://c5y72kxmyep3f" path="res://scenes/bomb.tscn" id="12_px6rj"]
+[ext_resource type="AudioStream" uid="uid://crs1ysyj4htru" path="res://assest/Music/Game Music/Loops/mp3/4. Ballad of Ashenwood.mp3" id="14_cr2eh"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_nr3cb"]
 texture = ExtResource("2_mofoo")
@@ -542,6 +544,10 @@ distance = -250.0
 
 [node name="Level01" type="Node2D" unique_id=266622364]
 
+[node name="GameManager" type="Node" parent="." unique_id=1083123812]
+unique_name_in_owner = true
+script = ExtResource("1_2ucnx")
+
 [node name="GreenSlimeEnemy" parent="." unique_id=539420262 instance=ExtResource("9_lwi15")]
 position = Vector2(417, 56)
 
@@ -787,3 +793,17 @@ position = Vector2(1800, -44)
 
 [node name="Speedfruit2" parent="." unique_id=101030138 instance=ExtResource("11_e6mo4")]
 position = Vector2(1217, -73)
+
+[node name="Label" type="Label" parent="." unique_id=719817013]
+offset_left = -123.0
+offset_top = 1.0
+offset_right = -75.0
+offset_bottom = 26.0
+pivot_offset = Vector2(32, 13)
+theme_override_font_sizes/font_size = 8
+text = "Don't do it "
+
+[node name="Music" type="AudioStreamPlayer2D" parent="." unique_id=1903032470]
+stream = ExtResource("14_cr2eh")
+autoplay = true
+bus = &"Music"

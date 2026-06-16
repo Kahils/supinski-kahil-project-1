@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ddc8nc2d0sjex"
+path="res://.godot/imported/14. Sacred Springs.mp3-8b013fd1593d960978dc886fcf21d838.mp3str"
+
+[deps]
+
+source_file="res://assest/Music/Game Music/Loops/mp3/14. Sacred Springs.mp3"
+dest_files=["res://.godot/imported/14. Sacred Springs.mp3-8b013fd1593d960978dc886fcf21d838.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

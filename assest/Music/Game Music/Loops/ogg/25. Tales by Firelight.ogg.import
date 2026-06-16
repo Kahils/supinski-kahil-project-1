@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://0riw2brlm11s"
+path="res://.godot/imported/25. Tales by Firelight.ogg-80df710bb6f6d6321ad1fa6b9fea398d.oggvorbisstr"
+
+[deps]
+
+source_file="res://assest/Music/Game Music/Loops/ogg/25. Tales by Firelight.ogg"
+dest_files=["res://.godot/imported/25. Tales by Firelight.ogg-80df710bb6f6d6321ad1fa6b9fea398d.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

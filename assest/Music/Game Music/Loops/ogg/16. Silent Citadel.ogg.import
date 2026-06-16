@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://b5x3m2v3downu"
+path="res://.godot/imported/16. Silent Citadel.ogg-06cb634fb658038abb15e19b94fac727.oggvorbisstr"
+
+[deps]
+
+source_file="res://assest/Music/Game Music/Loops/ogg/16. Silent Citadel.ogg"
+dest_files=["res://.godot/imported/16. Silent Citadel.ogg-06cb634fb658038abb15e19b94fac727.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

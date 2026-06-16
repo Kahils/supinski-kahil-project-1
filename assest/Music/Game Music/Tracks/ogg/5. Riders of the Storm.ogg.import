@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cu4et80h8d32f"
+path="res://.godot/imported/5. Riders of the Storm.ogg-49276341b0aaea69b8909d87f796c4ec.oggvorbisstr"
+
+[deps]
+
+source_file="res://assest/Music/Game Music/Tracks/ogg/5. Riders of the Storm.ogg"
+dest_files=["res://.godot/imported/5. Riders of the Storm.ogg-49276341b0aaea69b8909d87f796c4ec.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

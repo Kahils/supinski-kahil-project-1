@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://diy8g1g7aehj"
+path="res://.godot/imported/1. Dawn of Blades.mp3-2817df1ac52028ce0fb30e1c95df7a7e.mp3str"
+
+[deps]
+
+source_file="res://assest/Music/Game Music/Tracks/mp3/1. Dawn of Blades.mp3"
+dest_files=["res://.godot/imported/1. Dawn of Blades.mp3-2817df1ac52028ce0fb30e1c95df7a7e.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

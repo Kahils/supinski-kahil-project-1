@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://brflxqo12tw1d"
+path="res://.godot/imported/Gameoverfall.wav-301f3e5e062a4e3f9cb2f2579e7a8683.sample"
+
+[deps]
+
+source_file="res://assest/Sounds/2/All sounds/Gameoverfall.wav"
+dest_files=["res://.godot/imported/Gameoverfall.wav-301f3e5e062a4e3f9cb2f2579e7a8683.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://b12cb8tpogsrh"
+path="res://.godot/imported/11. Whispers in the Fog.ogg-4551260d710d29d5b21464fb618e9a2c.oggvorbisstr"
+
+[deps]
+
+source_file="res://assest/Music/Game Music/Tracks/ogg/11. Whispers in the Fog.ogg"
+dest_files=["res://.godot/imported/11. Whispers in the Fog.ogg-4551260d710d29d5b21464fb618e9a2c.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

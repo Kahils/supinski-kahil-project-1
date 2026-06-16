@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cm5bkx44xrx1c"
+path="res://.godot/imported/12. March of Iron.ogg-e235a6caa6483e979d74211ec96a392b.oggvorbisstr"
+
+[deps]
+
+source_file="res://assest/Music/Game Music/Tracks/ogg/12. March of Iron.ogg"
+dest_files=["res://.godot/imported/12. March of Iron.ogg-e235a6caa6483e979d74211ec96a392b.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

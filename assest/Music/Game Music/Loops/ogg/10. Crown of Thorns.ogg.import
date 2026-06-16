@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bcu24uqrj6lhq"
+path="res://.godot/imported/10. Crown of Thorns.ogg-a522558876b63291ca19500c9a4be94a.oggvorbisstr"
+
+[deps]
+
+source_file="res://assest/Music/Game Music/Loops/ogg/10. Crown of Thorns.ogg"
+dest_files=["res://.godot/imported/10. Crown of Thorns.ogg-a522558876b63291ca19500c9a4be94a.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

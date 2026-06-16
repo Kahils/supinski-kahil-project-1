@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ctt4jpbgl2c7k"
+path="res://.godot/imported/26. Echoes of Eternity.mp3-0690394d2981f96bd38912914482ad37.mp3str"
+
+[deps]
+
+source_file="res://assest/Music/Game Music/Tracks/mp3/26. Echoes of Eternity.mp3"
+dest_files=["res://.godot/imported/26. Echoes of Eternity.mp3-0690394d2981f96bd38912914482ad37.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://blnsqhendn54g"
+path="res://.godot/imported/3. Twilight March.mp3-db1314c3259983d9ad1e2f8b0d47fe07.mp3str"
+
+[deps]
+
+source_file="res://assest/Music/Game Music/Tracks/mp3/3. Twilight March.mp3"
+dest_files=["res://.godot/imported/3. Twilight March.mp3-db1314c3259983d9ad1e2f8b0d47fe07.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

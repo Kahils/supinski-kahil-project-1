@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cdyhhlf2x4cty"
+path="res://.godot/imported/Noreject.wav-aab566b5d51faaff606f5851e1377660.sample"
+
+[deps]
+
+source_file="res://assest/Sounds/2/All sounds/Noreject.wav"
+dest_files=["res://.godot/imported/Noreject.wav-aab566b5d51faaff606f5851e1377660.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

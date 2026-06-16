@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://db8yhe0ot7j3"
+path="res://.godot/imported/2. Echoes of the Keep.ogg-292373726b52a5c184672be7ee8693a2.oggvorbisstr"
+
+[deps]
+
+source_file="res://assest/Music/Game Music/Loops/ogg/2. Echoes of the Keep.ogg"
+dest_files=["res://.godot/imported/2. Echoes of the Keep.ogg-292373726b52a5c184672be7ee8693a2.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

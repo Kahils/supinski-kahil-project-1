@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://luem0sliqrdp"
+path="res://.godot/imported/21. The Silent Lake.ogg-698c0f1d1156d8ba78ba0dd445b04328.oggvorbisstr"
+
+[deps]
+
+source_file="res://assest/Music/Game Music/Tracks/ogg/21. The Silent Lake.ogg"
+dest_files=["res://.godot/imported/21. The Silent Lake.ogg-698c0f1d1156d8ba78ba0dd445b04328.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

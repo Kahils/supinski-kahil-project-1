@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://drk1st8bbg57c"
+path="res://.godot/imported/Beam.wav-06b6c6533d20c652e02e515217b8df77.sample"
+
+[deps]
+
+source_file="res://assest/Sounds/2/All sounds/Beam.wav"
+dest_files=["res://.godot/imported/Beam.wav-06b6c6533d20c652e02e515217b8df77.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

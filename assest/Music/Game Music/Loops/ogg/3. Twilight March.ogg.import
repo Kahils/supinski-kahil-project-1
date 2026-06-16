@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://blo7alcmoy43p"
+path="res://.godot/imported/3. Twilight March.ogg-2c0aac441c33580d071d94a790a09fd5.oggvorbisstr"
+
+[deps]
+
+source_file="res://assest/Music/Game Music/Loops/ogg/3. Twilight March.ogg"
+dest_files=["res://.godot/imported/3. Twilight March.ogg-2c0aac441c33580d071d94a790a09fd5.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

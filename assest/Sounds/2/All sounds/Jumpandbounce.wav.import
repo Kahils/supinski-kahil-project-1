@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://wewprvxubij4"
+path="res://.godot/imported/Jumpandbounce.wav-ea0474e781991f4b8b210f370a152d8b.sample"
+
+[deps]
+
+source_file="res://assest/Sounds/2/All sounds/Jumpandbounce.wav"
+dest_files=["res://.godot/imported/Jumpandbounce.wav-ea0474e781991f4b8b210f370a152d8b.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

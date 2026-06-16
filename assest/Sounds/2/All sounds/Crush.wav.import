@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://duo1flg03ql3i"
+path="res://.godot/imported/Crush.wav-325a796edbe3a704a9926c79877a0dae.sample"
+
+[deps]
+
+source_file="res://assest/Sounds/2/All sounds/Crush.wav"
+dest_files=["res://.godot/imported/Crush.wav-325a796edbe3a704a9926c79877a0dae.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

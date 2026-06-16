@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://d1kwvo1jyhin6"
+path="res://.godot/imported/1. Dawn of Blades.ogg-b4736ee6281f456dece5f2a760101ada.oggvorbisstr"
+
+[deps]
+
+source_file="res://assest/Music/Game Music/Tracks/ogg/1. Dawn of Blades.ogg"
+dest_files=["res://.godot/imported/1. Dawn of Blades.ogg-b4736ee6281f456dece5f2a760101ada.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

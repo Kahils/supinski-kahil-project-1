@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bcplg6tf6xytr"
+path="res://.godot/imported/8. Frostbound Path.ogg-35a625811073319f093ce3ef90e62874.oggvorbisstr"
+
+[deps]
+
+source_file="res://assest/Music/Game Music/Tracks/ogg/8. Frostbound Path.ogg"
+dest_files=["res://.godot/imported/8. Frostbound Path.ogg-35a625811073319f093ce3ef90e62874.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

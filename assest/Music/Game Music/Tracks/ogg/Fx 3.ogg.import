@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cdgumd0m672jj"
+path="res://.godot/imported/Fx 3.ogg-8c7ea78d882a6be77fe063ea548a6d8e.oggvorbisstr"
+
+[deps]
+
+source_file="res://assest/Music/Game Music/Tracks/ogg/Fx 3.ogg"
+dest_files=["res://.godot/imported/Fx 3.ogg-8c7ea78d882a6be77fe063ea548a6d8e.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

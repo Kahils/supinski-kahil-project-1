@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b5u6npjbk306p"
+path="res://.godot/imported/25. Tales by Firelight.mp3-3516195ace1f19a4e7be6ff668a4992b.mp3str"
+
+[deps]
+
+source_file="res://assest/Music/Game Music/Loops/mp3/25. Tales by Firelight.mp3"
+dest_files=["res://.godot/imported/25. Tales by Firelight.mp3-3516195ace1f19a4e7be6ff668a4992b.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

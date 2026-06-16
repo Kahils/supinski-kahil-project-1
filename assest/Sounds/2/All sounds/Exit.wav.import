@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cxnfyryr0mg1q"
+path="res://.godot/imported/Exit.wav-97f581770726d5ee03640a1028029c84.sample"
+
+[deps]
+
+source_file="res://assest/Sounds/2/All sounds/Exit.wav"
+dest_files=["res://.godot/imported/Exit.wav-97f581770726d5ee03640a1028029c84.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

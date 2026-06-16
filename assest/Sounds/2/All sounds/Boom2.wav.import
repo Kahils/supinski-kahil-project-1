@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cjt1ppxbyfrep"
+path="res://.godot/imported/Boom2.wav-cdbb5ec5eb80b7331f7b1e21c6cc7d10.sample"
+
+[deps]
+
+source_file="res://assest/Sounds/2/All sounds/Boom2.wav"
+dest_files=["res://.godot/imported/Boom2.wav-cdbb5ec5eb80b7331f7b1e21c6cc7d10.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

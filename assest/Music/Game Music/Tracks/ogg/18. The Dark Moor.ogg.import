@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dq3p4ftydgbx8"
+path="res://.godot/imported/18. The Dark Moor.ogg-8e4dbda3c7248eaf0eeafed19f7b837c.oggvorbisstr"
+
+[deps]
+
+source_file="res://assest/Music/Game Music/Tracks/ogg/18. The Dark Moor.ogg"
+dest_files=["res://.godot/imported/18. The Dark Moor.ogg-8e4dbda3c7248eaf0eeafed19f7b837c.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

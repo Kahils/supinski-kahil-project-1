@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cdpje30abh5r7"
+path="res://.godot/imported/Shower.wav-b06c65376ba2c652cae61a41f0a0b6fb.sample"
+
+[deps]
+
+source_file="res://assest/Sounds/2/All sounds/Shower.wav"
+dest_files=["res://.godot/imported/Shower.wav-b06c65376ba2c652cae61a41f0a0b6fb.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

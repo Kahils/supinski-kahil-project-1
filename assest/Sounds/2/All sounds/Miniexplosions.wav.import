@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b2rhn2hmfmevy"
+path="res://.godot/imported/Miniexplosions.wav-45374f14f869f90458bc0a74e203108b.sample"
+
+[deps]
+
+source_file="res://assest/Sounds/2/All sounds/Miniexplosions.wav"
+dest_files=["res://.godot/imported/Miniexplosions.wav-45374f14f869f90458bc0a74e203108b.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://davf35t87bmq7"
+path="res://.godot/imported/2. Echoes of the Keep.mp3-bddaf9b18d9d55fd543d8fae8f8880a6.mp3str"
+
+[deps]
+
+source_file="res://assest/Music/Game Music/Tracks/mp3/2. Echoes of the Keep.mp3"
+dest_files=["res://.godot/imported/2. Echoes of the Keep.mp3-bddaf9b18d9d55fd543d8fae8f8880a6.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

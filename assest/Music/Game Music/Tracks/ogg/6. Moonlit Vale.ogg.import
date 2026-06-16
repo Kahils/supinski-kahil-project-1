@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cxqit5bwjwhvv"
+path="res://.godot/imported/6. Moonlit Vale.ogg-ff825b0336c16c78ba766764defbcffc.oggvorbisstr"
+
+[deps]
+
+source_file="res://assest/Music/Game Music/Tracks/ogg/6. Moonlit Vale.ogg"
+dest_files=["res://.godot/imported/6. Moonlit Vale.ogg-ff825b0336c16c78ba766764defbcffc.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

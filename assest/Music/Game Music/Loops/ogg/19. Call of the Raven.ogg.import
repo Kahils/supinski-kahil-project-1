@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bfqk51n321rwe"
+path="res://.godot/imported/19. Call of the Raven.ogg-b98a08f2961d054d463328a17d5fb1ed.oggvorbisstr"
+
+[deps]
+
+source_file="res://assest/Music/Game Music/Loops/ogg/19. Call of the Raven.ogg"
+dest_files=["res://.godot/imported/19. Call of the Raven.ogg-b98a08f2961d054d463328a17d5fb1ed.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

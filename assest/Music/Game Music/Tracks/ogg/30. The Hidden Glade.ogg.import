@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://jpsckbk3w8ij"
+path="res://.godot/imported/30. The Hidden Glade.ogg-164af3a82958de003e5a5aa1aa3ef9fc.oggvorbisstr"
+
+[deps]
+
+source_file="res://assest/Music/Game Music/Tracks/ogg/30. The Hidden Glade.ogg"
+dest_files=["res://.godot/imported/30. The Hidden Glade.ogg-164af3a82958de003e5a5aa1aa3ef9fc.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

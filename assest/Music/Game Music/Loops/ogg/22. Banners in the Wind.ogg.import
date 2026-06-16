@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dprpwa0t0whuy"
+path="res://.godot/imported/22. Banners in the Wind.ogg-45b28c6165c9127d038b4cb5dc992b2b.oggvorbisstr"
+
+[deps]
+
+source_file="res://assest/Music/Game Music/Loops/ogg/22. Banners in the Wind.ogg"
+dest_files=["res://.godot/imported/22. Banners in the Wind.ogg-45b28c6165c9127d038b4cb5dc992b2b.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

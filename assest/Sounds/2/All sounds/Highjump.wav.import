@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cb8s3ll8msefo"
+path="res://.godot/imported/Highjump.wav-c5e30b542514fc16059cdf15ebe0a977.sample"
+
+[deps]
+
+source_file="res://assest/Sounds/2/All sounds/Highjump.wav"
+dest_files=["res://.godot/imported/Highjump.wav-c5e30b542514fc16059cdf15ebe0a977.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

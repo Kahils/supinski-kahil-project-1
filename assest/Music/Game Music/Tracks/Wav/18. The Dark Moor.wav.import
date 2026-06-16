@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bfajldogvyo4v"
+path="res://.godot/imported/18. The Dark Moor.wav-b5b8383fe70a452f90e60ee41ff43645.sample"
+
+[deps]
+
+source_file="res://assest/Music/Game Music/Tracks/Wav/18. The Dark Moor.wav"
+dest_files=["res://.godot/imported/18. The Dark Moor.wav-b5b8383fe70a452f90e60ee41ff43645.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

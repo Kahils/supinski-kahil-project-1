@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c5mg01i7fye53"
+path="res://.godot/imported/15. Legends of the Flame.mp3-fdbab0e6ee468b87ce4e1ea36c4f64c4.mp3str"
+
+[deps]
+
+source_file="res://assest/Music/Game Music/Tracks/mp3/15. Legends of the Flame.mp3"
+dest_files=["res://.godot/imported/15. Legends of the Flame.mp3-fdbab0e6ee468b87ce4e1ea36c4f64c4.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

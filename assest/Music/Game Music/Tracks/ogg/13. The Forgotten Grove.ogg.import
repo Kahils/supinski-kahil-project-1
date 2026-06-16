@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://ba14gv2yu84be"
+path="res://.godot/imported/13. The Forgotten Grove.ogg-a803ac2735ba7cf133e0cf7cc589653b.oggvorbisstr"
+
+[deps]
+
+source_file="res://assest/Music/Game Music/Tracks/ogg/13. The Forgotten Grove.ogg"
+dest_files=["res://.godot/imported/13. The Forgotten Grove.ogg-a803ac2735ba7cf133e0cf7cc589653b.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

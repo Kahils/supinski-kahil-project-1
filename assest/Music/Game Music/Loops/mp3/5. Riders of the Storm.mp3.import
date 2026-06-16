@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dwmowg1wkkuli"
+path="res://.godot/imported/5. Riders of the Storm.mp3-f3f8a4e7d9079b009f841bcee4f9fb68.mp3str"
+
+[deps]
+
+source_file="res://assest/Music/Game Music/Loops/mp3/5. Riders of the Storm.mp3"
+dest_files=["res://.godot/imported/5. Riders of the Storm.mp3-f3f8a4e7d9079b009f841bcee4f9fb68.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

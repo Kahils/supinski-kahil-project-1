@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://b5wcp03lfehr4"
+path="res://.godot/imported/9. The Old Tavern.ogg-5305aebf3298005899f3e5b444115ec1.oggvorbisstr"
+
+[deps]
+
+source_file="res://assest/Music/Game Music/Tracks/ogg/9. The Old Tavern.ogg"
+dest_files=["res://.godot/imported/9. The Old Tavern.ogg-5305aebf3298005899f3e5b444115ec1.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

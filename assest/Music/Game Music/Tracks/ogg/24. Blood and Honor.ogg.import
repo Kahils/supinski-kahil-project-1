@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://d0xc2g5o86q6c"
+path="res://.godot/imported/24. Blood and Honor.ogg-809dfd307de68ee7e4b8d1b4a634b1fe.oggvorbisstr"
+
+[deps]
+
+source_file="res://assest/Music/Game Music/Tracks/ogg/24. Blood and Honor.ogg"
+dest_files=["res://.godot/imported/24. Blood and Honor.ogg-809dfd307de68ee7e4b8d1b4a634b1fe.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

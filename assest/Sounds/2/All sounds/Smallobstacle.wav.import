@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://drvcr0ohy65co"
+path="res://.godot/imported/Smallobstacle.wav-f03851b36fb1d3059b1987b9a0d94f56.sample"
+
+[deps]
+
+source_file="res://assest/Sounds/2/All sounds/Smallobstacle.wav"
+dest_files=["res://.godot/imported/Smallobstacle.wav-f03851b36fb1d3059b1987b9a0d94f56.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

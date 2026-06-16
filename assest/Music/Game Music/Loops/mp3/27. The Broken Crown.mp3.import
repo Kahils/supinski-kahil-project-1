@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dnq8xiw28vwam"
+path="res://.godot/imported/27. The Broken Crown.mp3-12f4c741e81194d76baadf60ba609ec4.mp3str"
+
+[deps]
+
+source_file="res://assest/Music/Game Music/Loops/mp3/27. The Broken Crown.mp3"
+dest_files=["res://.godot/imported/27. The Broken Crown.mp3-12f4c741e81194d76baadf60ba609ec4.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

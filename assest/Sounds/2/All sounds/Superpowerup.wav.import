@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b6sh5yfi1cq2b"
+path="res://.godot/imported/Superpowerup.wav-94da42f90e0c4fb6815a4b6692e04d46.sample"
+
+[deps]
+
+source_file="res://assest/Sounds/2/All sounds/Superpowerup.wav"
+dest_files=["res://.godot/imported/Superpowerup.wav-94da42f90e0c4fb6815a4b6692e04d46.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

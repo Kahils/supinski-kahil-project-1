@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bgpue85ssf30k"
+path="res://.godot/imported/19. Call of the Raven.mp3-944f79048d402cead2a6d0ae61df5506.mp3str"
+
+[deps]
+
+source_file="res://assest/Music/Game Music/Tracks/mp3/19. Call of the Raven.mp3"
+dest_files=["res://.godot/imported/19. Call of the Raven.mp3-944f79048d402cead2a6d0ae61df5506.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

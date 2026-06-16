@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://d00hg52eiyxe"
+path="res://.godot/imported/Thunderlighting2d.wav-70dbebdcf0aa5d6666deed49230f9437.sample"
+
+[deps]
+
+source_file="res://assest/Sounds/2/All sounds/Thunderlighting2d.wav"
+dest_files=["res://.godot/imported/Thunderlighting2d.wav-70dbebdcf0aa5d6666deed49230f9437.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

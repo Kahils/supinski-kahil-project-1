@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dqtgv2llnsug8"
+path="res://.godot/imported/20. Lament of Kings.ogg-fd73789ddd2c3e67f40878d4dc05b823.oggvorbisstr"
+
+[deps]
+
+source_file="res://assest/Music/Game Music/Loops/ogg/20. Lament of Kings.ogg"
+dest_files=["res://.godot/imported/20. Lament of Kings.ogg-fd73789ddd2c3e67f40878d4dc05b823.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

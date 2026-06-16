@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ciwhwkm6d6bwq"
+path="res://.godot/imported/Energyattack.wav-74fb8abf2fcd6951b2d0af2cb7de9ccd.sample"
+
+[deps]
+
+source_file="res://assest/Sounds/2/All sounds/Energyattack.wav"
+dest_files=["res://.godot/imported/Energyattack.wav-74fb8abf2fcd6951b2d0af2cb7de9ccd.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2
