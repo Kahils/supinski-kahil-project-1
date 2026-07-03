@@ -11,13 +11,17 @@ config_version=5
 [application]
 
 config/name="SupinskiKahil_Project1"
-run/main_scene="uid://bri6tkkmhxrpm"
+run/main_scene="uid://4ws8rsorbiux"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
 
 [audio]
 
 buses/default_bus_layout="uid://ke1qh1322jru"
+
+[autoload]
+
+Bgm="*uid://735tmy5m0nkn"
 
 [debug]
 

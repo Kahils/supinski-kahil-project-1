@@ -2,6 +2,7 @@
 
 [ext_resource type="Script" uid="uid://c1gdnhgsrtep5" path="res://Scripts/coin.gd" id="1_rv65c"]
 [ext_resource type="Texture2D" uid="uid://4dmnateo50im" path="res://assest/2D Resources/items/fruit.png" id="2_rv65c"]
+[ext_resource type="AudioStream" uid="uid://dmrhxl14x0nut" path="res://assest/Sounds/2/All sounds/Pickup.wav" id="3_037j8"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_i64fm"]
 radius = 9.0
@@ -58,6 +59,9 @@ frame_progress = 0.38049522
 [node name="SpeedBuffTimer" type="Timer" parent="." unique_id=964446416]
 wait_time = 1.5
 one_shot = true
+
+[node name="PickUpSound" type="AudioStreamPlayer" parent="." unique_id=1762827314]
+stream = ExtResource("3_037j8")
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
 [connection signal="timeout" from="SpeedBuffTimer" to="." method="_on_speed_buff_timer_timeout"]

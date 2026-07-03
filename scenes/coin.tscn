@@ -125,25 +125,13 @@ tracks/1/keys = {
 "update": 1,
 "values": [true]
 }
-tracks/2/type = "value"
+tracks/2/type = "method"
 tracks/2/imported = false
 tracks/2/enabled = true
-tracks/2/path = NodePath("PickupSound:playing")
+tracks/2/path = NodePath(".")
 tracks/2/interp = 1
 tracks/2/loop_wrap = true
 tracks/2/keys = {
-"times": PackedFloat32Array(-0.46666667),
-"transitions": PackedFloat32Array(1),
-"update": 1,
-"values": [true]
-}
-tracks/3/type = "method"
-tracks/3/imported = false
-tracks/3/enabled = true
-tracks/3/path = NodePath(".")
-tracks/3/interp = 1
-tracks/3/loop_wrap = true
-tracks/3/keys = {
 "times": PackedFloat32Array(1),
 "transitions": PackedFloat32Array(1),
 "values": [{
@@ -178,18 +166,6 @@ tracks/1/keys = {
 "update": 1,
 "values": [false]
 }
-tracks/2/type = "value"
-tracks/2/imported = false
-tracks/2/enabled = true
-tracks/2/path = NodePath("PickupSound:playing")
-tracks/2/interp = 1
-tracks/2/loop_wrap = true
-tracks/2/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 1,
-"values": [false]
-}
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_wnlwo"]
 _data = {
@@ -213,11 +189,11 @@ autoplay = "default"
 wait_time = 1.5
 one_shot = true
 
-[node name="PickupSound" type="AudioStreamPlayer2D" parent="." unique_id=1983957805]
-stream = ExtResource("3_11l1o")
-
 [node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1289552443]
 libraries/ = SubResource("AnimationLibrary_wnlwo")
+
+[node name="PickUpSound" type="AudioStreamPlayer" parent="." unique_id=1583153920]
+stream = ExtResource("3_11l1o")
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
 [connection signal="timeout" from="SpeedBuffTimer" to="." method="_on_speed_buff_timer_timeout"]

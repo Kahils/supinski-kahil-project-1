@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://735tmy5m0nkn"]
+
+[ext_resource type="AudioStream" uid="uid://dssumedynyrr5" path="res://assest/Music/Game Music/Loops/ogg/4. Ballad of Ashenwood.ogg" id="1_q5y64"]
+
+[node name="BGM" type="AudioStreamPlayer" unique_id=55299891]
+stream = ExtResource("1_q5y64")
+autoplay = true

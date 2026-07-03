@@ -5,6 +5,8 @@ var player_ref:PlayerBody2D
 @onready var speed_buff_timer: Timer = $SpeedBuffTimer
 @onready var collision_shape_2d: CollisionShape2D = $CollisionShape2D
 @onready var animated_sprite_2d: AnimatedSprite2D = $AnimatedSprite2D
+@onready var pick_up_sound: AudioStreamPlayer = $PickUpSound
+@onready var game_manager: GameManager = %GameManager
 
 
 
@@ -15,6 +17,9 @@ func _on_body_entered(body: Node2D) -> void:
 	player_ref.speed = speed_boost_value
 	collision_shape_2d.set_deferred("disabled", true)
 	animated_sprite_2d.visible = false
+	pick_up_sound.play()
+	game_manager.coins += 1
+	game_manager.updatecoincount()
 	speed_buff_timer.start()
 
 func _on_speed_buff_timer_timeout() -> void:
